@@ -1,0 +1,13 @@
+plugin.tx_dveducationfaq {
+    view {
+        templateRootPaths.0 = EXT:dv_education_faq/Resources/Private/Templates/
+        partialRootPaths.0 = EXT:dv_education_faq/Resources/Private/Partials/
+        layoutRootPaths.0 = EXT:dv_education_faq/Resources/Private/Layouts/
+    }
+    persistence {
+        storagePid = {$plugin.tx_dveducationfaq.persistence.storagePid}
+    }
+    settings {
+        showRating = {$plugin.tx_dveducationfaq.settings.showRating}
+    }
+}

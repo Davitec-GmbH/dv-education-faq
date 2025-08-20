@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="messages" date="2026-03-31T00:00:00Z" product-name="dv_education_faq">
+        <header/><body>
+            <trans-unit id="plugin.faqlist.title"><source>FAQ List</source></trans-unit>
+            <trans-unit id="plugin.faqrate.title"><source>FAQ Rating (AJAX)</source></trans-unit>
+            <trans-unit id="faq.headline"><source>Frequently Asked Questions</source></trans-unit>
+            <trans-unit id="faq.search"><source>Search</source></trans-unit>
+            <trans-unit id="faq.search.placeholder"><source>Search FAQ...</source></trans-unit>
+            <trans-unit id="faq.category"><source>Category</source></trans-unit>
+            <trans-unit id="faq.allCategories"><source>All categories</source></trans-unit>
+            <trans-unit id="faq.submit"><source>Search</source></trans-unit>
+            <trans-unit id="faq.reset"><source>Reset</source></trans-unit>
+            <trans-unit id="faq.noResults"><source>No FAQ entries found.</source></trans-unit>
+            <trans-unit id="faq.helpful"><source>Was this helpful?</source></trans-unit>
+            <trans-unit id="faq.yes"><source>Yes</source></trans-unit>
+            <trans-unit id="faq.no"><source>No</source></trans-unit>
+        </body>
+    </file>
+</xliff>

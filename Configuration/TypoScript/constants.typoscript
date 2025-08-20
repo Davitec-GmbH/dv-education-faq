@@ -1,0 +1,10 @@
+plugin.tx_dveducationfaq {
+    persistence {
+        # cat=plugin.tx_dveducationfaq/storage; type=int; label=Storage PID
+        storagePid =
+    }
+    settings {
+        # cat=plugin.tx_dveducationfaq/settings; type=boolean; label=Show helpfulness rating
+        showRating = 1
+    }
+}

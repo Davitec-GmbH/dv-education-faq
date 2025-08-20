@@ -1,0 +1,48 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+<f:section name="content">
+    <h1><f:translate key="LLL:EXT:dv_education_faq/Resources/Private/Language/locallang.xlf:faq.headline" /></h1>
+
+    <section class="faq-search">
+        <f:form action="list" controller="Faq" pluginName="FaqList" method="post">
+            <fieldset>
+                <label for="faq-search"><f:translate key="LLL:EXT:dv_education_faq/Resources/Private/Language/locallang.xlf:faq.search" /></label>
+                <f:form.textfield name="searchTerm" id="faq-search" value="{searchTerm}" placeholder="{f:translate(key: 'LLL:EXT:dv_education_faq/Resources/Private/Language/locallang.xlf:faq.search.placeholder')}" />
+
+                <label for="faq-category"><f:translate key="LLL:EXT:dv_education_faq/Resources/Private/Language/locallang.xlf:faq.category" /></label>
+                <f:form.select name="category" id="faq-category" value="{selectedCategory}" options="{categories}" optionValueField="uid" optionLabelField="title" prependOptionLabel="{f:translate(key: 'LLL:EXT:dv_education_faq/Resources/Private/Language/locallang.xlf:faq.allCategories')}" prependOptionValue="0" />
+
+                <f:form.submit value="{f:translate(key: 'LLL:EXT:dv_education_faq/Resources/Private/Language/locallang.xlf:faq.submit')}" />
+                <f:if condition="{searchTerm} || {selectedCategory}">
+                    <a href="{f:uri.page()}"><f:translate key="LLL:EXT:dv_education_faq/Resources/Private/Language/locallang.xlf:faq.reset" /></a>
+                </f:if>
+            </fieldset>
+        </f:form>
+    </section>
+
+    <f:if condition="{items}">
+        <f:then>
+            <dl class="faq-list" role="list">
+                <f:for each="{items}" as="item">
+                    <div class="faq-item" itemscope="" itemtype="https://schema.org/Question">
+                        <dt itemprop="name"><button type="button" class="faq-toggle" aria-expanded="false">{item.question}</button></dt>
+                        <dd itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                            <div itemprop="text"><f:format.html>{item.answer}</f:format.html></div>
+                            <f:if condition="{showRating}">
+                                <div class="faq-rating">
+                                    <span><f:translate key="LLL:EXT:dv_education_faq/Resources/Private/Language/locallang.xlf:faq.helpful" /></span>
+                                    <button type="button" class="faq-rate" data-faq="{item.uid}" data-helpful="yes"><f:translate key="LLL:EXT:dv_education_faq/Resources/Private/Language/locallang.xlf:faq.yes" /></button>
+                                    <button type="button" class="faq-rate" data-faq="{item.uid}" data-helpful="no"><f:translate key="LLL:EXT:dv_education_faq/Resources/Private/Language/locallang.xlf:faq.no" /></button>
+                                </div>
+                            </f:if>
+                        </dd>
+                    </div>
+                </f:for>
+            </dl>
+        </f:then>
+        <f:else>
+            <p><f:translate key="LLL:EXT:dv_education_faq/Resources/Private/Language/locallang.xlf:faq.noResults" /></p>
+        </f:else>
+    </f:if>
+</f:section>
+</html>

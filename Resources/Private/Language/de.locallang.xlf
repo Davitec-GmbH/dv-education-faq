@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2026-03-31T00:00:00Z" product-name="dv_education_faq">
+        <header/><body>
+            <trans-unit id="plugin.faqlist.title"><source>FAQ List</source><target>FAQ-Liste</target></trans-unit>
+            <trans-unit id="plugin.faqrate.title"><source>FAQ Rating (AJAX)</source><target>FAQ-Bewertung (AJAX)</target></trans-unit>
+            <trans-unit id="faq.headline"><source>Frequently Asked Questions</source><target>Häufig gestellte Fragen</target></trans-unit>
+            <trans-unit id="faq.search"><source>Search</source><target>Suche</target></trans-unit>
+            <trans-unit id="faq.search.placeholder"><source>Search FAQ...</source><target>FAQ durchsuchen...</target></trans-unit>
+            <trans-unit id="faq.category"><source>Category</source><target>Kategorie</target></trans-unit>
+            <trans-unit id="faq.allCategories"><source>All categories</source><target>Alle Kategorien</target></trans-unit>
+            <trans-unit id="faq.submit"><source>Search</source><target>Suchen</target></trans-unit>
+            <trans-unit id="faq.reset"><source>Reset</source><target>Zurücksetzen</target></trans-unit>
+            <trans-unit id="faq.noResults"><source>No FAQ entries found.</source><target>Keine FAQ-Einträge gefunden.</target></trans-unit>
+            <trans-unit id="faq.helpful"><source>Was this helpful?</source><target>War das hilfreich?</target></trans-unit>
+            <trans-unit id="faq.yes"><source>Yes</source><target>Ja</target></trans-unit>
+            <trans-unit id="faq.no"><source>No</source><target>Nein</target></trans-unit>
+        </body>
+    </file>
+</xliff>

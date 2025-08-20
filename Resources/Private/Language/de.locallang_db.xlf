@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2026-03-31T00:00:00Z" product-name="dv_education_faq">
+        <header/><body>
+            <trans-unit id="tx_dveducationfaq_domain_model_faqcategory"><source>FAQ Category</source><target>FAQ-Kategorie</target></trans-unit>
+            <trans-unit id="tx_dveducationfaq_domain_model_faqitem"><source>FAQ Item</source><target>FAQ-Eintrag</target></trans-unit>
+            <trans-unit id="field.title"><source>Title</source><target>Titel</target></trans-unit>
+            <trans-unit id="field.description"><source>Description</source><target>Beschreibung</target></trans-unit>
+            <trans-unit id="field.slug"><source>URL Segment</source><target>URL-Segment</target></trans-unit>
+            <trans-unit id="field.question"><source>Question</source><target>Frage</target></trans-unit>
+            <trans-unit id="field.answer"><source>Answer</source><target>Antwort</target></trans-unit>
+            <trans-unit id="field.category"><source>Category</source><target>Kategorie</target></trans-unit>
+            <trans-unit id="field.helpful_yes"><source>Helpful: Yes</source><target>Hilfreich: Ja</target></trans-unit>
+            <trans-unit id="field.helpful_no"><source>Helpful: No</source><target>Hilfreich: Nein</target></trans-unit>
+            <trans-unit id="tab.rating"><source>Rating</source><target>Bewertung</target></trans-unit>
+        </body>
+    </file>
+</xliff>
