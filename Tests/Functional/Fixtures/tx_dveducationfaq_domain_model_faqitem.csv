@@ -1,0 +1,5 @@
+"uid","pid","question","answer","category","helpful_yes","helpful_no","sorting","deleted","hidden"
+1,1,"Wie bewerbe ich mich?","Online-Portal nutzen",1,10,2,1,0,0
+2,1,"Welche Fristen gelten?","15. Juli / 15. Januar",1,5,1,2,0,0
+3,1,"Wie richte ich WLAN ein?","Eduroam verbinden",2,20,3,1,0,0
+4,1,"Gelöschte Frage","Sollte nicht erscheinen",1,0,0,3,1,0
