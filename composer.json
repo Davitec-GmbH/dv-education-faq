@@ -3,7 +3,12 @@
     "type": "typo3-cms-extension",
     "description": "Structured FAQ system for the education sector. Category-based FAQ with search and optional helpfulness rating.",
     "license": "GPL-2.0-or-later",
-    "authors": [{"name": "Davitec GmbH, +Pluswerk Standort Dresden", "email": "devops@davitec.de"}],
+    "authors": [
+        {
+            "name": "Davitec GmbH, +Pluswerk Standort Dresden",
+            "email": "devops@davitec.de"
+        }
+    ],
     "require": {
         "php": "^8.2",
         "typo3/cms-core": "^12.4 || ^13.4",
@@ -15,9 +20,16 @@
         "typo3/testing-framework": "^8.0 || ^9.0"
     },
     "autoload": {
-        "psr-4": {"Davitec\\DvEducationFaq\\": "Classes/"}
+        "psr-4": {
+            "Davitec\\DvEducationFaq\\": "Classes/"
+        }
     },
     "extra": {
-        "typo3/cms": {"extension-key": "dv_education_faq"}
+        "typo3/cms": {
+            "extension-key": "dv_education_faq"
+        }
+    },
+    "support": {
+        "docs": "https://docs.typo3.org/p/davitec/dv-education-faq/main/en-us/Index.html"
     }
 }
